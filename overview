@@ -1,0 +1,37 @@
+Users Search Engine (USE) aims to provide a search engine that values:
+
+	· Utility
+		There should be high control in how a search query is made so that one may be able to refine, filter and sort search results.
+		There should be API access to make it easy to utilize the search engine from within applications.
+
+	· Quality
+		All results are user curated. There is no automatic scraping.
+
+	· Transparency
+		Who entered entries into the database?
+		What are the current search trends in absolute values?
+			(As will be discussed in more detail the trust network comes into play here since bots could be attempting to sway the trends if their searches mattered)
+		Financial data for the organization
+			This is out of scope of this document but any organization running this service (or perhaps it is also a network of trustworthy organizations) should have open
+			financial dconnections are in the ata regarding the operations of the search engine.
+
+Background
+
+	Today a lot of our experiences on the internet is colored by the competition in the attention economy.
+	Heavy use of search engine optimization (SEO) and sponsored or otherwise prioritized content makes certain topics real hard to search for while getting relevant answers.
+	Some sites will even generate hundreds of entries in search engines for common queries and filling it with nonsense.
+	The need for a search engine that serves its users rather than the sponsors has never been greater.
+
+Potential problems
+	Bait and switch
+		A user could be generating good and trustworthy data for a long time to cement their reputation and then later misuse this reputation.
+			There is nothing that can prevent this but perhaps there could be tools to make it easier to spot these things.
+			For instance, if a user can see how useful other peers¹ judge a user and they notice a rapid decline they can make assumptions regarding corruption of said user.
+
+
+
+Notes
+	¹ other peers: Other peers in this document typically refers to a weighted average of peers that the user trust.
+		Trust can be positive, negative or neutral.
+		Trust also travels via judgement trust connections. When "other peers" are influencing decisions or reported data this is the outcome of travelling the trust network.
+		The depth may be dynamically decided depending on how strong connections are in the network.
